@@ -30,7 +30,11 @@ section {
 	min-width: 10px;
 	padding: 1rem 0;
 	min-height: 300px;
-	display: block;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #DE8F6E;
+	align-items: stretch;
 }
 
 
@@ -41,24 +45,29 @@ section {
 }
 
 .trolley-grey {
-	background: #7D7C84;
+	background: #7D7C84; 
+	flex-grow: 1;
 }
 
 .sea-green {
-	background: #2D93AD;
+	background: #2D93AD; 
+	flex-grow: 1
 }
 
 .middle-red {
 	background: #DE8F6E;
+	flex-grow: 1
 
 }
 
 .black {
-	background: #000;
+	background: #000; 
+	flex-grow: 1
 }
 
 .orange {
 	background: orange;
+	flex-grow: 1
 
 }
 
